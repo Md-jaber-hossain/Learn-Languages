@@ -2,7 +2,7 @@
 
 ## Live Site Link
 
-Please, click here: [Learn-Language-site](https://programmers-react-assignment-8.netlify.app/)
+Please, click here: [Learn-Language-site](https://learn-languages-react-app.netlify.app/)
 
 ## Description of Learn Languages
 

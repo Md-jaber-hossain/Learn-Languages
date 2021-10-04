@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "English Language",
+        "description": "Learn English online at your own pace. Start today and improve your skills.",
+        "price": 500,
+        "img": "https://media.istockphoto.com/vectors/english-vector-id1047570732?k=20&m=1047570732&s=612x612&w=0&h=fcgzlrNrq_hws1ykrLSpyBVZoIGr54EUueD6WAEVW0c="
+    },
+    {
+        "id": 2,
+        "name": "Spanish Language",
+        "description": "All Our Spanish Teachers Are Qualified And Exclusively Devoted To Teaching Spanish.",
+        "price": 400,
+        "img": "https://dp4g669tqdae4.cloudfront.net/content/uploads/2019/09/12161658/Espanol.-Translation-Spanish.-Language-hand-drawn-doodles-and-lettering.-1087621188_7013x4954.jpg"
+    },
+    {
+        "id": 3,
+        "name": "German Language",
+        "description": "German language courses for beginners and advanced learner: Face-To-Face, Blended & Online.",
+        "price": 600,
+        "img": "https://images.squarespace-cdn.com/content/v1/5a9850b95417fc1f5c48bde0/1564047595580-4SF0QH00U9EOM504XYT3/German+Language+Course+in+Dhaka.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Japanese Language",
+        "description": "We offer basic Japanense Language courses taught by an experienced Japanese native teacher.",
+        "price": 700,
+        "img": "https://www.jfny.org/karashi/wp-content/uploads/JF-Language-Course.jpg"
+    }
+
+]

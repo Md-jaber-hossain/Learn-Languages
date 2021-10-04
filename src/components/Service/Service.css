@@ -2,6 +2,13 @@
     height: 450px;
 }
 .card-b{
-    border: 3px solid rgb(193, 193, 248);
     border-radius: 16px;
+    background-color: rgb(238, 247, 250);
+    border: 3px solid rgb(70, 200, 252);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-b:hover{
+    background-color: rgb(210, 240, 250);
+    border: 3px solid rgb(70, 252, 237);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }

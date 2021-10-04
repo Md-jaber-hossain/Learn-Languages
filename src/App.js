@@ -9,6 +9,8 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
+import PurchaseComplete from './components/PurchaseComplete/PurchaseComplete';
+
 
 function App() {
   return (
@@ -31,7 +33,10 @@ function App() {
           <Route path="/contact">
             <Contact></Contact>
           </Route>
-          <Route path="*">
+          <Route path="/purchase">
+            <PurchaseComplete></PurchaseComplete>
+          </Route>
+          <Route exact path="*">
             <Error></Error>
           </Route>
         </Switch>

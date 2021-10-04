@@ -1,17 +1,18 @@
 import React from 'react';
+import "./About.css"
 import { Card } from 'react-bootstrap';
 
 const About = () => {
     return (
         <div>
             <div className="text-center mt-lg-5">
-                <h1 className="fw-bold"><span className="text-primary">ABOUT </span>US</h1>
+                <h1 className="fw-bold"><span className="text-info">ABOUT </span>US</h1>
             </div>
             <div className=" m-lg-5 d-flex justify-content-md-center">
-                <div className="card mb-3" style={{ maxWidth: '1000px' }}>
+                <div className="card about-card-style mb-3" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
                         <div className="col-md-6 d-flex align-items-md-center p-3 ">
-                            <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className="img-fluid rounded-start" alt="..." />
+                            <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className=" about-img img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-6 p-2 pt-3">
                             <div className="card-body">
@@ -25,10 +26,10 @@ const About = () => {
             </div>
 
             <div className="text-center mt-lg-5">
-                <h1 className="fw-bold">OUR <span className="text-primary">STRATEGY</span></h1>
+                <h1 className="fw-bold">OUR <span className="text-info">STRATEGY</span></h1>
             </div>
             <div className=" m-lg-5 d-flex justify-content-md-center">
-                <div className="card mb-3" style={{ maxWidth: '1000px' }}>
+                <div className="card mb-3 about-card-style" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
                         <div className="col-md-6 p-2 pt-3">
                             <div className="card-body">
@@ -38,7 +39,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-md-6 d-flex align-items-md-center ps-4 ">
-                            <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className="img-fluid rounded-start" alt="..." />
+                            <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className="about-img img-fluid rounded-start" alt="..." />
                         </div>
                     </div>
                 </div>

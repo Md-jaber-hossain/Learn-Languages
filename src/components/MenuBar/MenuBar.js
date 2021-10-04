@@ -9,7 +9,7 @@ const MenuBar = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="title">
-              <h1>Learn <span className="title-color">Languages</span></h1>
+              <h1>Learn <span className="text-info">Languages</span></h1>
             </div>
           </div>
           <div className="col-md-8">

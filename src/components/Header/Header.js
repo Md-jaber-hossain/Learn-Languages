@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MenuBar from '../MenuBar/MenuBar';
 import "./Header.css"
 
@@ -17,7 +18,9 @@ const Header = () => {
               <p className="text-white mt-3">
                 Language and Motivation is a platform for people who want to lift themselves and their skills to a higher level.
               </p>
-              <button className="btn btn-primary button">Details</button>
+              <Link to={'/about'}>
+                <button className="btn btn-info button fw-bold fs-5"><i class="fas fa-info-circle"></i> Details</button>
+              </Link>
             </div>
           </div>
         </div>

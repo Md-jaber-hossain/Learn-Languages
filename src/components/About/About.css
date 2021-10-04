@@ -1,0 +1,15 @@
+.about-card-style{
+    background-color: rgb(238, 247, 250);
+    border: 3px solid rgb(70, 200, 252);
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.about-card-style:hover{
+    background-color: rgb(210, 240, 250);
+    border: 3px solid rgb(70, 252, 237);
+    border-radius: 35px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.about-img{
+    border-radius: 25px;
+}

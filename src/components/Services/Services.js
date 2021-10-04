@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <div>
             <div className="text-center mt-lg-5">
-                <h1 className="fw-bold">Our <span className="text-primary">Services</span></h1>
+                <h1 className="fw-bold">OUR <span className="text-info">SERVICES</span></h1>
             </div>
             <div className="container mt-5 mb-lg-5">
                 <Row xs={1} md={3} className="g-4">

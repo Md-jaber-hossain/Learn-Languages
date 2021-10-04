@@ -9,4 +9,17 @@
   padding: 50px;
   color: rgb(216, 209, 209);
 }
+ /* Icon hover */
+.fa-facebook-square:hover{
+  color: rgb(106, 185, 231);
+}
+.twitter:hover{
+  color: rgb(106, 185, 231);
+}
+.fa-instagram:hover{
+  color: rgb(106, 185, 231);
+}
+.fa-reddit-square:hover{
+  color: rgb(106, 185, 231);
+}
   

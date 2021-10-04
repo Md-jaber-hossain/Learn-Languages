@@ -1,0 +1,7 @@
+.error-style{
+    border: 3px solid red;
+    background-color: rgb(247, 184, 184);
+    border-radius: 15px;
+    color: red;
+    font-weight: 500;
+}

@@ -1,12 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCoffee,
-  faPhoneVolume,
-  faMapMarkedAlt,
-} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,7 +9,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-4">
               <div>
-                <h2>Learn Languages</h2>
+                <h2 className="text-info">Learn Languages</h2>
                 <p className="mt-4">
                   <small>
                     We all have those days creep in when learning a language may seem like more work than it’s worth.
@@ -45,6 +38,21 @@ const Footer = () => {
               <p className="mt-4">Mobile: 01621390353</p>
               <p>Email: md.jaber8695@gmail.com</p>
               <p>Address: Mirpur, Dhaka</p>
+            </div>
+          </div>
+
+          <div className="d-flex justify-content-center mt-4">
+            <div className="fs-3">
+              <i className="fab fa-facebook-square"></i>
+            </div>
+            <div className="fs-3 twitter ms-lg-4">
+              <i className="fab fa-twitter-square"></i>
+            </div>
+            <div className="fs-3 ms-lg-4">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div className="fs-3 ms-lg-4">
+              <i class="fab fa-reddit-square"></i>
             </div>
           </div>
         </div>

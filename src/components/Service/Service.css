@@ -8,6 +8,7 @@
     background-color: rgb(238, 247, 250);
     border: 3px solid rgb(70, 200, 252);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: background-color 1s;
 }
 /* service card hover */
 .card-b:hover{

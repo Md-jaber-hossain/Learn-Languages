@@ -3,6 +3,7 @@
     border: 3px solid skyblue;
     border-radius: 15px;
     background-color: rgb(234, 239, 241);
+    transition: border-radius 1s;
 }
 /* contact card hover */
 .card-style:hover{

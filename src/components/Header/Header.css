@@ -3,7 +3,6 @@
   background-image: url("https://img.freepik.com/free-photo/stack-books-black-background_23-2147846050.jpg?size=626&ext=jpg"),
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 580px;
-  width: 100%;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +21,16 @@
 }
 /* header text style */
 .header-text{
-  border: 3px solid rgb(184, 184, 245);
+  border: 3px solid rgb(96, 209, 230);
   border-radius: 15px;
-  width: 75%;
+  width: 900px;
+  transition: border-radius 1s;
+}
+.header-text:hover{
+  border: 3px solid rgb(13, 238, 208);
+  border-radius: 35px;
+}
+/* body background color */
+body {
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(238, 248, 247));
 }

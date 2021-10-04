@@ -15,6 +15,7 @@ import PurchaseComplete from './components/PurchaseComplete/PurchaseComplete';
 function App() {
   return (
     <div>
+      {/* react router for all components */}
       <Router>
         <Header></Header>
         <Switch>

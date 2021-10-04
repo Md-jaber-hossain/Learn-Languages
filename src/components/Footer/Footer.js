@@ -6,6 +6,7 @@ const Footer = () => {
     <div>
       <div className="footer-container">
         <div className="container">
+          {/* Footer body */}
           <div className="row">
             <div className="col-md-4">
               <div>
@@ -40,7 +41,7 @@ const Footer = () => {
               <p>Address: Mirpur, Dhaka</p>
             </div>
           </div>
-
+          {/* Social media Icon for footer*/}
           <div className="d-flex justify-content-center mt-4">
             <div className="fs-3">
               <i className="fab fa-facebook-square"></i>

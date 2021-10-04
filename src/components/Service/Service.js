@@ -7,6 +7,7 @@ const Service = (props) => {
     const { img, name, description, price } = props.language
     return (
         <div>
+            {/* services card to show details */}
             <Col>
                 <Card className="height card-b" >
                     <Card.Img style={{ height: '250px', width: '100%', borderRadius: '15px' }} variant="top" src={img} />
@@ -16,6 +17,7 @@ const Service = (props) => {
                         <Card.Text style={{ height: '70px' }}>
                             {description}
                         </Card.Text>
+                        {/* price and button of the card*/}
                         <div className="d-flex justify-content-lg-between">
                             <Card.Text><b>Price:</b> $
                                 {price}

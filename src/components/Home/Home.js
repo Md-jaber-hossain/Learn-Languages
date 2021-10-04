@@ -5,6 +5,7 @@ import { Carousel, Row } from 'react-bootstrap';
 import ServiceHome from '../ServiceHome/ServiceHome';
 
 const Home = () => {
+    // state and fetching data from my JSON file
     const [languages, setLanguages] = useState([]);
     useEffect(() => {
         fetch('./languageHome.JSON')
@@ -18,6 +19,7 @@ const Home = () => {
                 <p className="text-secondary mt-lg-5">Spoken language is just as it sounds: it's language that is spoken versus language that 's written or expressed non-verbally. Spoken language involves the actual use of speech or related utterances that convey meaning to share thoughts or other information.</p>
             </div>
             <div className="container mt-lg-5">
+                {/* Carousel for sliding feature images */}
                 <Carousel>
                     <Carousel.Item>
                         <img
@@ -52,6 +54,7 @@ const Home = () => {
                 </div>
                 <div className="container mt-5 mb-lg-5">
                     <Row xs={1} md={2} className="g-5">
+                        {/* Arrary mapping from state and call ServiceHome component */}
                         {
                             languages.map(language => <ServiceHome
                                 key={language.id}

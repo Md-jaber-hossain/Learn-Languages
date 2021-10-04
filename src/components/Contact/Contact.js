@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="text-center mt-lg-5">
                 <h1 className="fw-bold"><span className="text-info">CONTACT</span> INFO</h1>
             </div>
-
+            {/* Contact card 1 for detail contact */}
             <div className="container mt-lg-5 mb-lg-5">
                 <div className="row row-cols-1 row-cols-md-3 g-4 text-center">
                     <div className="col">
@@ -23,6 +23,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    {/* Contact card 2 for detail contact */}
                     <div className="col">
                         <div className="card h-100 card-style">
                             <div className="card-body">
@@ -35,6 +36,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    {/* Contact card 3 for detail contact */}
                     <div className="col">
                         <div className="card h-100 card-style">
                             <div className="card-body">
@@ -51,16 +53,18 @@ const Contact = () => {
             </div>
 
             <br />
-
+            {/* Simple form design for getting message */}
             <div className="text-center mt-lg-5">
                 <h1 className="fw-bold"><span className="text-info">MESSAGE </span>US</h1>
             </div>
             <div className=" m-lg-5 d-flex justify-content-md-center">
                 <div className="card about-card-style mb-3" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
+                        {/* image for form */}
                         <div className="col-md-6 d-flex justify-content-lg-center align-items-md-center p-3 ">
                             <img width="250px" src="https://www.pngarts.com/files/1/Message-PNG-Image-with-Transparent-Background.png" className=" about-img img-fluid rounded-start" alt="..." />
                         </div>
+                        {/* input message */}
                         <div className="col-md-6 p-2 pt-3">
                             <div className="card-body">
                                 <h5 className="card-title">Write something what you want to know</h5>
@@ -72,7 +76,7 @@ const Contact = () => {
                                     <label htmlFor="exampleFormControlTextarea1" className="form-label">Write mesage</label>
                                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-
+                                {/* submit button for form */}
                                 <div className="d-flex justify-content-lg-end">
                                     <button className="btn btn-info text-white ">Submit</button>
                                 </div>

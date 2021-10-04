@@ -1,12 +1,13 @@
 import React from 'react';
-import "./ServiceHome.css"
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ServiceHome = (props) => {
+    // getting data from home component and destructure
     const { img, name, description, price } = props.language
     return (
         <div>
+            {/* services card for home component */}
             <Col>
                 <Card className="card-b" style={{ height: '450px' }}>
                     <Card.Img style={{ height: '250px', width: '100%', borderRadius: '15px' }} variant="top" src={img} />
@@ -15,6 +16,7 @@ const ServiceHome = (props) => {
                         <Card.Text style={{ height: '70px' }}>
                             {description}
                         </Card.Text>
+                        {/* price and button link for route */}
                         <div className="d-flex justify-content-lg-between align-items-md-center">
                             <Card.Text><b>Price:</b> $
                                 {price}

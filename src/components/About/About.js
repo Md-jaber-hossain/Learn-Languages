@@ -4,12 +4,14 @@ import "./About.css"
 const About = () => {
     return (
         <div>
+            {/* About us card and ddetails */}
             <div className="text-center mt-lg-5">
                 <h1 className="fw-bold"><span className="text-info">ABOUT </span>US</h1>
             </div>
             <div className=" m-lg-5 d-flex justify-content-md-center">
                 <div className="card about-card-style mb-3" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
+                        {/* image for card */}
                         <div className="col-md-6 d-flex align-items-md-center p-3 ">
                             <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className=" about-img img-fluid rounded-start" alt="..." />
                         </div>
@@ -23,7 +25,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+            {/* Our strategy card and details */}
             <div className="text-center mt-lg-5">
                 <h1 className="fw-bold">OUR <span className="text-info">STRATEGY</span></h1>
             </div>
@@ -37,6 +39,7 @@ const About = () => {
                                 <p className="card-text">Our 10-week courses comprise 20 hours of lessons, with one two-hour lesson per week, starting at 18.30. These fit easily into even the busiest schedule.</p>
                             </div>
                         </div>
+                        {/* image for card */}
                         <div className="col-md-6 d-flex align-items-md-center ps-4 ">
                             <img src="https://ulsites.ul.ie/mlal/sites/default/files/Language2.png" className="about-img img-fluid rounded-start" alt="..." />
                         </div>

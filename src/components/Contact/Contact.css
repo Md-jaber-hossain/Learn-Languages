@@ -1,8 +1,10 @@
+/* contact card style */
 .card-style{
     border: 3px solid skyblue;
     border-radius: 15px;
     background-color: rgb(234, 239, 241);
 }
+/* contact card hover */
 .card-style:hover{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 30px;

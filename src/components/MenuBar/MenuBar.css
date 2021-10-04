@@ -1,14 +1,19 @@
-.items {
-    list-style: none;
-    margin-right: 30px;
-    font-size: 22px;
-    font-weight: 500;
-    color: rgb(236, 252, 248);
-    cursor: pointer;
-    padding: 5px;
-    text-decoration: none;
-  }
-  .items:hover {
-    color: rgb(10, 199, 224);
-  }
+/* Navbar style */
+.list{
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(236, 252, 248);
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+/* Hover for NavLink */
+.list:hover {
+  color: rgb(10, 199, 224);
+  border: 2px solid skyblue;
+  border-radius: 15px;
+  background-color: snow;
+}
   

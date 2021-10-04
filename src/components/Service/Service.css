@@ -1,12 +1,15 @@
+/* service style */
 .height{
     height: 450px;
 }
+/* service card style */
 .card-b{
     border-radius: 16px;
     background-color: rgb(238, 247, 250);
     border: 3px solid rgb(70, 200, 252);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+/* service card hover */
 .card-b:hover{
     background-color: rgb(210, 240, 250);
     border: 3px solid rgb(70, 252, 237);

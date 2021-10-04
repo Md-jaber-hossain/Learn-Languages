@@ -8,7 +8,7 @@ const Home = () => {
     // state and fetching data from my JSON file
     const [languages, setLanguages] = useState([]);
     useEffect(() => {
-        fetch('./languageHome.JSON')
+        fetch('./languages.JSON')
             .then(res => res.json())
             .then(data => setLanguages(data));
     }, []);
@@ -56,7 +56,7 @@ const Home = () => {
                     <Row xs={1} md={2} className="g-5">
                         {/* Arrary mapping from state and call ServiceHome component */}
                         {
-                            languages.map(language => <ServiceHome
+                            languages.slice(0,4).map(language => <ServiceHome
                                 key={language.id}
                                 language={language}>
                             </ServiceHome>)

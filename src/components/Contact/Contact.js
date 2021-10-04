@@ -13,10 +13,10 @@ const Contact = () => {
                 <div className="row row-cols-1 row-cols-md-3 g-4 text-center">
                     <div className="col">
                         <div className="card h-100 card-style">
-                            <div class="card-body">
-                                <h5 class="card-title">Address</h5>
-                                <p class="card-text">Mirpur-1, Dhaka</p>
-                                <p class="card-text">Bangladesh</p>
+                            <div className="card-body">
+                                <h5 className="card-title">Address</h5>
+                                <p className="card-text">Mirpur-1, Dhaka</p>
+                                <p className="card-text">Bangladesh</p>
                                 <Link to={'/home'}>
                                     <button className="btn btn-info text-white rounded-3">Go home</button>
                                 </Link>
@@ -25,10 +25,10 @@ const Contact = () => {
                     </div>
                     <div className="col">
                         <div className="card h-100 card-style">
-                            <div class="card-body">
-                                <h5 class="card-title">E-mail</h5>
-                                <p class="card-text">jaber15-8656@diu.edu.bd</p>
-                                <p class="card-text">md.jaber8695@gmail.com</p>
+                            <div className="card-body">
+                                <h5 className="card-title">E-mail</h5>
+                                <p className="card-text">jaber15-8656@diu.edu.bd</p>
+                                <p className="card-text">md.jaber8695@gmail.com</p>
                                 <Link to={'/home'}>
                                     <button className="btn btn-info text-white rounded-3">Go home</button>
                                 </Link>
@@ -37,10 +37,10 @@ const Contact = () => {
                     </div>
                     <div className="col">
                         <div className="card h-100 card-style">
-                            <div class="card-body">
-                                <h5 class="card-title">Phone</h5>
-                                <p class="card-text">Mobile: 01621390353</p>
-                                <p class="card-text">Tel: 0981212</p>
+                            <div className="card-body">
+                                <h5 className="card-title">Phone</h5>
+                                <p className="card-text">Mobile: 01621390353</p>
+                                <p className="card-text">Tel: 0981212</p>
                                 <Link to={'/home'}>
                                     <button className="btn btn-info text-white rounded-3">Go home</button>
                                 </Link>
@@ -64,13 +64,13 @@ const Contact = () => {
                         <div className="col-md-6 p-2 pt-3">
                             <div className="card-body">
                                 <h5 className="card-title">Write something what you want to know</h5>
-                                <div class="mb-3 mt-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email..." />
+                                <div className="mb-3 mt-3">
+                                    <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter Email..." />
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Write mesage</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <div className="mb-3">
+                                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Write mesage</label>
+                                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
 
                                 <div className="d-flex justify-content-lg-end">

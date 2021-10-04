@@ -19,7 +19,7 @@ const Header = () => {
                 Language and Motivation is a platform for people who want to lift themselves and their skills to a higher level.
               </p>
               <Link to={'/about'}>
-                <button className="btn btn-info button fw-bold fs-5"><i class="fas fa-info-circle"></i> Details</button>
+                <button className="btn btn-info button fw-bold fs-5"><i className="fas fa-info-circle"></i> Details</button>
               </Link>
             </div>
           </div>

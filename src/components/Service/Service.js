@@ -21,7 +21,7 @@ const Service = (props) => {
                                 {price}
                             </Card.Text>
                             <Link to={'/purchase'}>
-                                <button className="btn btn-info rounded-3 text-white ms-lg-4"><i class="fas fa-money-check-alt"></i> Buy Now</button>
+                                <button className="btn btn-info rounded-3 text-white ms-lg-4"><i className="fas fa-money-check-alt"></i> Buy Now</button>
                             </Link>
                         </div>
                     </Card.Body>

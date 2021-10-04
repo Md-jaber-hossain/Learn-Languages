@@ -49,10 +49,10 @@ const Footer = () => {
               <i className="fab fa-twitter-square"></i>
             </div>
             <div className="fs-3 ms-lg-4">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </div>
             <div className="fs-3 ms-lg-4">
-              <i class="fab fa-reddit-square"></i>
+              <i className="fab fa-reddit-square"></i>
             </div>
           </div>
         </div>

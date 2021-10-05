@@ -13,7 +13,7 @@ const MenuBar = () => {
       </div>
       {/* Navbar and route link */}
       <div className="col-md-6">
-        <ul className="d-flex justify-content-center me-md-5">
+        <ul className=" d-flex justify-content-center me-md-5">
           <Link to="/home" className="list">
             <li>Home</li>
           </Link>

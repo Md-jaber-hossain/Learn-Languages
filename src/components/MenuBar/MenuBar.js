@@ -9,7 +9,7 @@ const MenuBar = () => {
       <nav className="navbar navbar-expand-lg navbar-light menuBar-bg">
         <div className="container-fluid">
           <div className="title">
-            <h1>Learn <span className="text-info">Languages</span></h1>
+            <h1 className="fw-bold">Learn <span className="text-info">Languages</span></h1>
           </div>
 
           <button className="navbar-toggler bg-white ms-auto my-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

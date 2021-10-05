@@ -36,9 +36,9 @@ const Footer = () => {
               <h2>
                 Contact Info
               </h2>
-              <p className="mt-4">Mobile: 01621390353</p>
-              <p>Email: md.jaber8695@gmail.com</p>
-              <p>Address: Mirpur, Dhaka</p>
+              <p className="mt-4"><i class="fas fa-mobile-alt"></i>  01621390353</p>
+              <p><i class="far fa-envelope"></i> md.jaber8695@gmail.com</p>
+              <p><i class="far fa-address-card"></i> Mirpur, Dhaka</p>
             </div>
           </div>
           {/* Social media Icon for footer*/}
@@ -46,13 +46,13 @@ const Footer = () => {
             <div className="fs-3">
               <i className="fab fa-facebook-square"></i>
             </div>
-            <div className="fs-3 twitter ms-lg-4">
+            <div className="fs-3 twitter ms-4">
               <i className="fab fa-twitter-square"></i>
             </div>
-            <div className="fs-3 ms-lg-4">
+            <div className="fs-3 ms-4">
               <i className="fab fa-instagram"></i>
             </div>
-            <div className="fs-3 ms-lg-4">
+            <div className="fs-3 ms-4">
               <i className="fab fa-reddit-square"></i>
             </div>
           </div>

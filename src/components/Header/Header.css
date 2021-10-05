@@ -1,18 +1,16 @@
 /* Header style */
 .header {
   background-image: url("https://img.freepik.com/free-photo/stack-books-black-background_23-2147846050.jpg?size=626&ext=jpg"),
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  height: 580px;
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(92, 148, 165, 0.5));
+  height: 520px;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 /* title style */
-.title {
-  color: white;
-  font-weight: bold;
-  font-size: 59px;
+.title-header{
+  font-size: 40px;
 }
 /* button style */
 .button {
@@ -33,4 +31,19 @@
 /* body background color */
 body {
   background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(238, 248, 247));
+  overflow: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+
+/* responsive for header */
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 680px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .header-text{
+    width: 400px;
+  }
 }

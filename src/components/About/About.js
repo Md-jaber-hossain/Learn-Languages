@@ -5,10 +5,10 @@ const About = () => {
     return (
         <div>
             {/* About us card and ddetails */}
-            <div className="text-center mt-lg-5">
+            <div className="text-center mt-5">
                 <h1 className="fw-bold"><span className="text-info">ABOUT </span>US</h1>
             </div>
-            <div className=" m-lg-5 d-flex justify-content-md-center">
+            <div className=" m-5 d-flex justify-content-center">
                 <div className="card about-card-style mb-3" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
                         {/* image for card */}
@@ -26,10 +26,10 @@ const About = () => {
                 </div>
             </div>
             {/* Our strategy card and details */}
-            <div className="text-center mt-lg-5">
+            <div className="text-center mt-5">
                 <h1 className="fw-bold">OUR <span className="text-info">STRATEGY</span></h1>
             </div>
-            <div className=" m-lg-5 d-flex justify-content-md-center">
+            <div className=" m-5 d-flex justify-content-center">
                 <div className="card mb-3 about-card-style" style={{ maxWidth: '1000px' }}>
                     <div className="row g-0">
                         <div className="col-md-6 p-2 pt-3">

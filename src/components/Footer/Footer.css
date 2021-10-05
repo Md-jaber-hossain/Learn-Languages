@@ -7,21 +7,31 @@
 }
 /* footer body */
 .footer-container{
-  background-color: #191919;
+  background-color: #071b20;
   padding: 50px;
   color: rgb(216, 209, 209);
 }
  /* Icon hover */
+ .fa-mobile-alt{
+  color: rgb(20, 185, 226);
+}
+.fa-envelope{
+  color: rgb(20, 185, 226);
+}
+.fa-address-card{
+  color: rgb(20, 185, 226);
+}
+
 .fa-facebook-square:hover{
-  color: rgb(106, 185, 231);
+  color: rgb(38, 202, 243);
 }
 .twitter:hover{
-  color: rgb(106, 185, 231);
+  color: rgb(38, 202, 243);
 }
 .fa-instagram:hover{
-  color: rgb(106, 185, 231);
+  color: rgb(38, 202, 243);
 }
 .fa-reddit-square:hover{
-  color: rgb(106, 185, 231);
+  color: rgb(38, 202, 243);
 }
   

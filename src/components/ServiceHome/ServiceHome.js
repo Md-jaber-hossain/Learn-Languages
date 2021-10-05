@@ -17,7 +17,7 @@ const ServiceHome = (props) => {
                             {description}
                         </Card.Text>
                         {/* price and button link for route */}
-                        <div className="d-flex justify-content-lg-between align-items-md-center">
+                        <div className="d-flex justify-content-between align-items-md-center">
                             <Card.Text><b>Price:</b> $
                                 {price}
                             </Card.Text>
@@ -26,7 +26,7 @@ const ServiceHome = (props) => {
                                     <button className="btn btn-primary rounded-3 text-white">More</button>
                                 </Link>
                                 <Link to={'/purchase'}>
-                                    <button className="btn btn-info rounded-3 text-white ms-lg-4"><i className="fas fa-money-check-alt"></i> Buy Now</button>
+                                    <button className="btn btn-info rounded-3 text-white ms-4"><i className="fas fa-money-check-alt"></i> Buy Now</button>
                                 </Link>
                             </div>
                         </div>

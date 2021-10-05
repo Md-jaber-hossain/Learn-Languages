@@ -14,9 +14,9 @@ const Home = () => {
     }, []);
     return (
         <>
-            <div className=" container text-center mt-lg-5">
+            <div className=" container text-center mt-5">
                 <h1 className="fw-bold">LANGUAGE <span className="text-info">COURSE</span> FEATURE</h1>
-                <p className="text-secondary mt-lg-5">Spoken language is just as it sounds: it's language that is spoken versus language that 's written or expressed non-verbally. Spoken language involves the actual use of speech or related utterances that convey meaning to share thoughts or other information.</p>
+                <p className="text-secondary mt-5">Spoken language is just as it sounds: it's language that is spoken versus language that 's written or expressed non-verbally. Spoken language involves the actual use of speech or related utterances that convey meaning to share thoughts or other information.</p>
             </div>
             <div className="container mt-lg-5">
                 {/* Carousel for sliding feature images */}
@@ -49,10 +49,10 @@ const Home = () => {
             </div>
 
             <div>
-                <div className="text-center mt-lg-5">
+                <div className="text-center mt-5">
                     <h1 className="fw-bold">OUR <span className="text-info">SERVICES</span></h1>
                 </div>
-                <div className="container mt-5 mb-lg-5">
+                <div className="container mt-5 mb-5">
                     <Row xs={1} md={2} className="g-5">
                         {/* Arrary mapping from state and call ServiceHome component */}
                         {

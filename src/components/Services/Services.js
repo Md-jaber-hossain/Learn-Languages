@@ -14,10 +14,10 @@ const Services = () => {
     }, []);
     return (
         <div>
-            <div className="text-center mt-lg-5">
+            <div className="text-center mt-5">
                 <h1 className="fw-bold">OUR <span className="text-info">SERVICES</span></h1>
             </div>
-            <div className="container mt-5 mb-lg-5">
+            <div className="container mt-5 mb-5">
                 <Row xs={1} md={3} className="g-4">
                     {/* array mapping from fetching data then call to service */}
                     {

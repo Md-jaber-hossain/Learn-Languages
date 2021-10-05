@@ -18,12 +18,12 @@ const Service = (props) => {
                             {description}
                         </Card.Text>
                         {/* price and button of the card*/}
-                        <div className="d-flex justify-content-lg-between">
+                        <div className="d-flex justify-content-between">
                             <Card.Text><b>Price:</b> $
                                 {price}
                             </Card.Text>
                             <Link to={'/purchase'}>
-                                <button className="btn btn-info rounded-3 text-white ms-lg-4"><i className="fas fa-money-check-alt"></i> Buy Now</button>
+                                <button className="btn btn-info rounded-3 text-white ms-4"><i className="fas fa-money-check-alt"></i> Buy Now</button>
                             </Link>
                         </div>
                     </Card.Body>

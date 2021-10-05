@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Carousel, Row } from 'react-bootstrap';
+import Header from '../Header/Header';
 import ServiceHome from '../ServiceHome/ServiceHome';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     }, []);
     return (
         <>
+            <Header></Header>
             <div className=" container text-center mt-5">
                 <h1 className="fw-bold">LANGUAGE <span className="text-info">COURSE</span> FEATURE</h1>
                 <p className="text-secondary mt-5">Spoken language is just as it sounds: it's language that is spoken versus language that 's written or expressed non-verbally. Spoken language involves the actual use of speech or related utterances that convey meaning to share thoughts or other information.</p>

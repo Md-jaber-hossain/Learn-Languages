@@ -1,4 +1,7 @@
 /* Navbar style */
+.menuBar-bg{
+  background-color: #071b20;
+}
 .list{
   list-style: none;
   margin-right: 30px;
@@ -12,7 +15,7 @@
 /* Hover for NavLink */
 .list:hover {
   color: rgb(10, 199, 224);
-  border: 2px solid skyblue;
+  /* border: 2px solid skyblue; */
   border-radius: 15px;
   background-color: snow;
 }

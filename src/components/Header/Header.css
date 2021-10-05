@@ -2,7 +2,7 @@
 .header {
   background-image: url("https://img.freepik.com/free-photo/stack-books-black-background_23-2147846050.jpg?size=626&ext=jpg"),
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(92, 148, 165, 0.5));
-  height: 520px;
+  height: 420px;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,7 @@ html{
 /* responsive for header */
 @media only screen and (max-width: 600px) {
   .header {
-    height: 720px;
+    height: 630px;
     /* border-radius: 0px 0px 20px 20px; */
   }
   .header-text{

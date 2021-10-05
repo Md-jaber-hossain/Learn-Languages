@@ -36,9 +36,9 @@ const Footer = () => {
               <h2>
                 Contact Info
               </h2>
-              <p className="mt-4"><i class="fas fa-mobile-alt"></i>  01621390353</p>
-              <p><i class="far fa-envelope"></i> md.jaber8695@gmail.com</p>
-              <p><i class="far fa-address-card"></i> Mirpur, Dhaka</p>
+              <p className="mt-4"><i className="fas fa-mobile-alt"></i>  01621390353</p>
+              <p><i className="far fa-envelope"></i> md.jaber8695@gmail.com</p>
+              <p><i className="far fa-address-card"></i> Mirpur, Dhaka</p>
             </div>
           </div>
           {/* Social media Icon for footer*/}

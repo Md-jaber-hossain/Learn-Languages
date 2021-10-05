@@ -1,7 +1,7 @@
 /* error message style */
 .error-style{
-    border: 3px solid red;
-    background-color: rgb(247, 184, 184);
+    border: 3px solid rgb(4, 133, 165);
+    background-color: rgb(184, 213, 247);
     border-radius: 15px;
     color: red;
     font-weight: 500;

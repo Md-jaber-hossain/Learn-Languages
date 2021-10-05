@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -10,6 +9,7 @@ import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
 import Error from './components/Error/Error';
 import PurchaseComplete from './components/PurchaseComplete/PurchaseComplete';
+import MenuBar from './components/MenuBar/MenuBar';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <div>
       {/* react router for all components */}
       <Router>
-        <Header></Header>
+        <MenuBar></MenuBar>
         <Switch>
           <Route exact path="/">
             <Home></Home>

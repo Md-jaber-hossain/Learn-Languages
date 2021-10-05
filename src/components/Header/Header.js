@@ -1,17 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MenuBar from '../MenuBar/MenuBar';
 import "./Header.css"
 
 const Header = () => {
   return (
     // Header section implementation
       <div className="header">
-        {/* call MenuBar to show navbar */}
-        <MenuBar></MenuBar>
         <div className="row d-flex align-items-center justify-content-center">
           {/* Description of header */}
-          <div className="text-center p-5 header-text">
+          <div className="text-center p-5 mt-5 header-text">
             <h1 className="text-white fw-bold title-header">
               Learning a Language<br />Makes you Perfect
             </h1>

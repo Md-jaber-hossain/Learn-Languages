@@ -14,7 +14,7 @@ const Contact = () => {
                     <div className="col">
                         <div className="card h-100 card-style">
                             <div className="card-body">
-                                <h5 className="card-title"><i class="far fa-address-card"></i> Address</h5>
+                                <h5 className="card-title"><i className="far fa-address-card"></i> Address</h5>
                                 <p className="card-text">Mirpur-1, Dhaka</p>
                                 <p className="card-text">Bangladesh</p>
                                 <Link to={'/home'}>
@@ -27,7 +27,7 @@ const Contact = () => {
                     <div className="col">
                         <div className="card h-100 card-style">
                             <div className="card-body">
-                                <h5 className="card-title"><i class="far fa-envelope"></i> E-mail</h5>
+                                <h5 className="card-title"><i className="far fa-envelope"></i> E-mail</h5>
                                 <p className="card-text">jaber15-8656@diu.edu.bd</p>
                                 <p className="card-text">md.jaber8695@gmail.com</p>
                                 <Link to={'/home'}>
@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="col">
                         <div className="card h-100 card-style">
                             <div className="card-body">
-                                <h5 className="card-title"><i class="fas fa-mobile-alt"></i> Phone</h5>
+                                <h5 className="card-title"><i className="fas fa-mobile-alt"></i> Phone</h5>
                                 <p className="card-text">Mobile: 01621390353</p>
                                 <p className="card-text">Telephone: 0981212</p>
                                 <Link to={'/home'}>
